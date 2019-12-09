@@ -1,0 +1,41 @@
+{
+  "name": "@fourteenmeister/react-scripts",
+  "version": "0.0.1-alpha.0",
+  "description": "custom react scripts for create-react-app package",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fourteenmeister/react-scripts.git"
+  },
+  "keywords": [
+    "react",
+    "scripts"
+  ],
+  "author": "Andrey Kamaev",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "scripts"
+  ],
+  "bin": {
+    "customize-react-scripts": "./bin/customize-react-scripts.js"
+  },
+  "bugs": {
+    "url": "https://github.com/fourteenmeister/react-scripts/issues"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "execa": "^3.4.0",
+    "react-scripts": "^3.3.0",
+    "rimraf": "^3.0.0",
+    "serve": "^11.2.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "homepage": "https://github.com/fourteenmeister/react-scripts#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
